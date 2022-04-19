@@ -1,5 +1,5 @@
 /*First variable is the chosen city from the search field*/
-let yourCity="";
+let yourCity ="";
 /*more global variables for the buttons and weather parameters*/
 let findCity = $("#find-city");
 let findButton = $("#find-city-button");
@@ -20,7 +20,7 @@ function seek(c){
     return 1;
 }
 /*attach my API key to the script*/
-var APIKey="b90035bb90f2061cad2c779598a0e8e9";
+let APIKey="b90035bb90f2061cad2c779598a0e8e9";
 /* Pulls the weather data from the city chosen in the search field to display in main box*/
 function showWeather(event){
     event.preventDefault();
